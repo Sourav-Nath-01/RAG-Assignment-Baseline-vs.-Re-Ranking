@@ -1,0 +1,109 @@
+intended type,query,bi_rank,ce_rank,recall@10,P1 hit@3,P2 hit@3,P1 RR,P2 RR
+keyword trap,What is the age of digital consent for children?,1.0,1.0,True,True,True,1.0,1.0
+keyword trap,Can I get my data in a format that lets me move it to another service provider?,,,False,False,False,0.0,0.0
+keyword trap,Can my employer monitor my personal data at work?,,,False,False,False,0.0,0.0
+keyword trap,Who appoints the members of a supervisory authority?,6.0,4.0,True,False,False,0.16666666666666666,0.25
+keyword trap,What happens if hackers steal customer data?,,,False,False,False,0.0,0.0
+keyword trap,How much compensation can a victim receive for damage caused by unlawful processing?,4.0,3.0,True,False,True,0.25,0.3333333333333333
+keyword trap,Can I make the company forget everything about me?,,,False,False,False,0.0,0.0
+keyword trap,What penalties can a supervisory authority impose for breaching rules on children's consent?,,,False,False,False,0.0,0.0
+exception,"Must the controller always inform the individuals affected by a data breach, even if the data were encrypted?",2.0,1.0,True,True,True,0.5,1.0
+exception,Do companies outside the EU always have to appoint a representative in the EU?,,,False,False,False,0.0,0.0
+exception,Is a small company with 50 employees required to keep records of processing?,1.0,3.0,True,True,True,1.0,0.3333333333333333
+exception,Can sensitive data like health data ever be processed?,,,False,False,False,0.0,0.0
+exception,Can a controller refuse a data subject's request?,,,False,False,False,0.0,0.0
+exception,Does the right to data portability apply to processing carried out in the public interest?,2.0,1.0,True,True,True,0.5,1.0
+exception,Can the right to object be overridden by the controller?,,,False,False,False,0.0,0.0
+exception,Can a decision based solely on automated processing be allowed if the person consents?,3.0,1.0,True,True,True,0.3333333333333333,1.0
+exception,When can a controller process data for a new purpose without consent?,,,False,False,False,0.0,0.0
+negation,Which kinds of personal data are prohibited from being processed?,,,False,False,False,0.0,0.0
+negation,Is the data protection officer allowed to take instructions from the controller?,2.0,1.0,True,True,True,0.5,1.0
+negation,Can a processor process personal data without the controller's instructions?,1.0,1.0,True,True,True,1.0,1.0
+negation,What processing is the GDPR not applicable to?,4.0,2.0,True,False,True,0.25,0.5
+negation,Are supervisory authorities not competent to supervise courts?,1.0,1.0,True,True,True,1.0,1.0
+negation,When is consent not considered freely given?,2.0,4.0,True,True,False,0.5,0.25
+negation,Can criminal conviction data be processed by anyone other than official authorities?,1.0,1.0,True,True,True,1.0,1.0
+negation,Is a controller forbidden from transferring data to a third country based on a foreign court judgment?,1.0,1.0,True,True,True,1.0,1.0
+negation,Can a processor be penalised for acting outside the instructions of the controller?,7.0,10.0,True,False,False,0.14285714285714285,0.1
+keyword trap,Does the GDPR require personal data to be encrypted?,,,False,False,False,0.0,0.0
+keyword trap,When does the GDPR take effect?,1.0,1.0,True,True,True,1.0,1.0
+keyword trap,What is the highest possible fine under the GDPR?,2.0,2.0,True,True,True,0.5,0.5
+keyword trap,How often must an adequacy decision be reviewed?,,,False,False,False,0.0,0.0
+keyword trap,How quickly must a processor tell the controller about a data breach?,1.0,1.0,True,True,True,1.0,1.0
+keyword trap,Can I get a second copy of my data and does it cost money?,2.0,1.0,True,True,True,0.5,1.0
+keyword trap,Who decides why and how personal data are processed?,,,False,False,False,0.0,0.0
+keyword trap,What makes an agreement to data processing valid?,,,False,False,False,0.0,0.0
+keyword trap,Are cookies considered personal data?,1.0,10.0,True,True,False,1.0,0.1
+keyword trap,Is fraud prevention a legitimate reason to process data?,1.0,1.0,True,True,True,1.0,1.0
+keyword trap,Can a group of companies share one data protection officer?,1.0,1.0,True,True,True,1.0,1.0
+keyword trap,Can the data protection officer be an external contractor?,1.0,1.0,True,True,True,1.0,1.0
+keyword trap,How long is a data protection certification valid?,3.0,1.0,True,True,True,0.3333333333333333,1.0
+keyword trap,Who is liable if a sub-processor fails to meet its obligations?,3.0,1.0,True,True,True,0.3333333333333333,1.0
+keyword trap,Does the controller have to tell other companies it shared my data with that it has deleted it?,1.0,1.0,True,True,True,1.0,1.0
+keyword trap,Can a supervisory authority stop a company from processing data altogether?,,,False,False,False,0.0,0.0
+keyword trap,Does the GDPR apply to an American company selling products to people in France?,,,False,False,False,0.0,0.0
+keyword trap,What is pseudonymisation?,2.0,1.0,True,True,True,0.5,1.0
+exception,"If stolen data were encrypted, do the affected users need to be told?",1.0,1.0,True,True,True,1.0,1.0
+exception,Can a bank refuse to delete my data because a law requires it to keep records?,,,False,False,False,0.0,0.0
+exception,Can a company continue sending me marketing after I object?,2.0,2.0,True,True,True,0.5,0.5
+exception,Do courts need to appoint a data protection officer?,2.0,1.0,True,True,True,0.5,1.0
+exception,Can public authorities be fined under the GDPR?,1.0,1.0,True,True,True,1.0,1.0
+exception,Can a government agency rely on legitimate interests to process data?,,,False,False,False,0.0,0.0
+exception,How long does a company have to answer my request and can it take longer?,1.0,1.0,True,True,True,1.0,1.0
+exception,Can data be transferred abroad if the person explicitly agrees?,,,False,False,False,0.0,0.0
+exception,Can a company transfer data abroad based only on its own legitimate interests?,2.0,1.0,True,True,True,0.5,1.0
+exception,Can a controller avoid paying compensation for damage?,2.0,1.0,True,True,True,0.5,1.0
+exception,When is a processor liable for damage caused by processing?,1.0,1.0,True,True,True,1.0,1.0
+exception,Can sensitive data that a person has posted publicly be processed?,,,False,False,False,0.0,0.0
+exception,Does the controller need to tell me information I already know?,9.0,5.0,True,False,False,0.1111111111111111,0.2
+exception,Can my right to access my data be limited to protect other people?,,,False,False,False,0.0,0.0
+negation,Does the GDPR protect the data of dead people?,1.0,1.0,True,True,True,1.0,1.0
+negation,Does the regulation protect data about companies?,,,False,False,False,0.0,0.0
+negation,Does the GDPR apply to anonymised data?,1.0,1.0,True,True,True,1.0,1.0
+negation,Is a processor allowed to hire a sub-processor without written authorisation?,1.0,1.0,True,True,True,1.0,1.0
+negation,Can the data protection officer have other duties?,2.0,2.0,True,True,True,0.5,0.5
+negation,Is a controller allowed to refuse to act on a request when it cannot identify the data subject?,4.0,1.0,True,False,True,0.25,1.0
+negation,Can processing of children's data be based on consent of a 12 year old?,2.0,1.0,True,True,True,0.5,1.0
+negation,Can personal data be kept forever?,1.0,2.0,True,True,True,1.0,0.5
+negation,Can the Commission give instructions to the European Data Protection Board?,,,False,False,False,0.0,0.0
+negation,Which supervisory authority members are not allowed to take instructions?,2.0,1.0,True,True,True,0.5,1.0
+keyword trap,What is the maximum fine for failing to notify a personal data breach?,,,False,False,False,0.0,0.0
+keyword trap,What fine applies if a company does not report a data breach in time?,,,False,False,False,0.0,0.0
+keyword trap,How large can the fine be for violating a data subject's right of access?,1.0,1.0,True,True,True,1.0,1.0
+keyword trap,What is the penalty for ignoring a data subject's erasure request?,,,False,False,False,0.0,0.0
+keyword trap,What is the fine for not appointing a data protection officer?,,,False,False,False,0.0,0.0
+keyword trap,What is meant by restriction of processing?,,,False,False,False,0.0,0.0
+keyword trap,What counts as a personal data breach?,,,False,False,False,0.0,0.0
+keyword trap,Does every company need a data protection officer?,5.0,5.0,True,False,False,0.2,0.2
+keyword trap,What is an enterprise under the GDPR?,1.0,1.0,True,True,True,1.0,1.0
+keyword trap,Who counts as a recipient of personal data?,1.0,1.0,True,True,True,1.0,1.0
+keyword trap,Can my employer read my work emails?,1.0,1.0,True,True,True,1.0,1.0
+keyword trap,What is the deadline for answering a data subject access request?,1.0,1.0,True,True,True,1.0,1.0
+keyword trap,Does a data subject have to pay to lodge a complaint with the supervisory authority?,3.0,8.0,True,True,False,0.3333333333333333,0.125
+keyword trap,Can member states set rules for processing a national identification number?,1.0,1.0,True,True,True,1.0,1.0
+keyword trap,"Within how many months must the Board adopt a decision in a dispute between authorities, and can it be extended?",1.0,1.0,True,True,True,1.0,1.0
+keyword trap,Within what period must a supervisory authority reply to a mutual assistance request from another authority?,3.0,2.0,True,True,True,0.3333333333333333,0.5
+keyword trap,Can personal data be processed for journalism without consent?,2.0,2.0,True,True,True,0.5,0.5
+keyword trap,Is the representative in the Union liable instead of the controller?,4.0,2.0,True,False,True,0.25,0.5
+keyword trap,Is the lead supervisory authority obliged to share its draft decision with other authorities?,3.0,2.0,True,True,True,0.3333333333333333,0.5
+keyword trap,Who is the lead supervisory authority for a company with offices in several EU countries?,1.0,6.0,True,True,False,1.0,0.16666666666666666
+keyword trap,Can I ask a company to stop using my data while it checks whether the data is correct?,,,False,False,False,0.0,0.0
+keyword trap,Can I make a company freeze my data instead of deleting it?,,,False,False,False,0.0,0.0
+keyword trap,Is a non-profit allowed to sue on my behalf?,1.0,1.0,True,True,True,1.0,1.0
+keyword trap,Can a consumer organisation file a complaint without my mandate?,,,False,False,False,0.0,0.0
+keyword trap,Does CCTV monitoring of a shopping mall require an impact assessment?,2.0,1.0,True,True,True,0.5,1.0
+keyword trap,Does a hospital need an impact assessment for processing patient records at scale?,5.0,3.0,True,False,True,0.2,0.3333333333333333
+keyword trap,Who is the boss of the data protection officer?,2.0,2.0,True,True,True,0.5,0.5
+keyword trap,Who pays for the data protection officer's training?,8.0,5.0,True,False,False,0.125,0.2
+keyword trap,What must a company check before using data for a different purpose than originally collected?,4.0,3.0,True,False,True,0.25,0.3333333333333333
+keyword trap,Can I complain in my home country if the company is based in another EU country?,8.0,8.0,True,False,False,0.125,0.125
+keyword trap,Is a company liable if its processor causes damage?,1.0,1.0,True,True,True,1.0,1.0
+keyword trap,Does the representative of a non-EU company have to keep records of processing?,,,False,False,False,0.0,0.0
+keyword trap,What happens to the data when the contract with the processor ends?,,,False,False,False,0.0,0.0
+keyword trap,Does a company have to tell me how long it will keep my data?,,,False,False,False,0.0,0.0
+keyword trap,Does a company have to tell me where it got my data from?,,,False,False,False,0.0,0.0
+keyword trap,Do I have to give my data to a company in order to sign a contract with it?,,,False,False,False,0.0,0.0
+keyword trap,Must the controller tell me if it plans to send my data abroad?,2.0,1.0,True,True,True,0.5,1.0
+keyword trap,Is the processor liable instead of the controller when it breaks the contract?,8.0,10.0,True,False,False,0.125,0.1
+keyword trap,Who has to keep processing contracts in writing?,3.0,2.0,True,True,True,0.3333333333333333,0.5
+keyword trap,Does the processor have to help the controller answer data subject requests?,5.0,6.0,True,False,False,0.2,0.16666666666666666

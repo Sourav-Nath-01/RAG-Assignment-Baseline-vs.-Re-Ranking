@@ -1,0 +1,8 @@
+id,category,query,gold section,gold chunk: rank shift,gold in P1 top3,gold in P2 top3,Answer 1,Answer 2
+KT-1,Keyword trap / distractor,Is the representative in the Union liable instead of the controller?,Article 27,347: #4 → #2,False,True,Abstained,Correct
+EX-1,Exception / corner case,Does every data breach have to be reported to the supervisory authority?,Article 33,366: #5 → #2,False,True,Abstained,Correct
+NEG-1,Negation & constraints,Which activities fall outside the scope of the regulation?,Article 2,259: #5 → #1,False,True,Abstained,Correct
+DOC-1,Document-specific: recitals outrank binding article,Is a controller allowed to refuse to act on a request when it cannot identify the data subject?,Article 12,301: #4 → #1,False,True,Omitted essential clause,Correct
+LIM-1,Limitation: re-ranking demotes the answer,Can scientific researchers skip informing people whose data they reuse?,Article 14,317: #4 → #9,False,False,Correct,Abstained
+LIM-2,Limitation: answer not in Top 10 (recall),What is the maximum fine for failing to notify a personal data breach?,Article 83,538: #21 (outside Top 10),False,False,Abstained,Abstained
+OBS-1,Observation: chunk overlap already rescues the baseline,"Must a company keep a record of every data breach, even ones not reported?",Article 33,367: #2 → #5; 368: #9 → #3,True,True,Correct,Correct
