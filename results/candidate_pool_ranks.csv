@@ -86,7 +86,7 @@ keyword trap,Within what period must a supervisory authority reply to a mutual a
 keyword trap,Can personal data be processed for journalism without consent?,2.0,2.0,True,True,True,0.5,0.5
 keyword trap,Is the representative in the Union liable instead of the controller?,4.0,2.0,True,False,True,0.25,0.5
 keyword trap,Is the lead supervisory authority obliged to share its draft decision with other authorities?,3.0,2.0,True,True,True,0.3333333333333333,0.5
-keyword trap,Who is the lead supervisory authority for a company with offices in several EU countries?,1.0,6.0,True,True,False,1.0,0.16666666666666666
+keyword trap,Who is the lead supervisory authority for a company with offices in several EU countries?,1.0,5.0,True,True,False,1.0,0.2
 keyword trap,Can I ask a company to stop using my data while it checks whether the data is correct?,,,False,False,False,0.0,0.0
 keyword trap,Can I make a company freeze my data instead of deleting it?,,,False,False,False,0.0,0.0
 keyword trap,Is a non-profit allowed to sue on my behalf?,1.0,1.0,True,True,True,1.0,1.0
