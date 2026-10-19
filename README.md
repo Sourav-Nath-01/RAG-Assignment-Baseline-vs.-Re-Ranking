@@ -22,14 +22,15 @@ RAG_Reranking.ipynb          main notebook (all code, commented, with outputs)
 data/GDPR_EU_2016_679.pdf    source document
 results/                     CSV tables produced by the notebook + LLM answer cache
   failure_summary.csv          rank shifts and answer verdicts for the failure queries
-  candidate_pool_ranks.csv     gold-chunk ranks for all ~110 candidate queries
+  candidate_pool_ranks.csv     gold-chunk ranks for all 109 candidate queries
   candidate_pool_summary.csv   Recall@10 / Hit@3 / MRR@10 per query type
   latency_stages.csv           per-stage latency (mean / median / p95)
   latency_pipelines.csv        end-to-end latency of both pipelines
   scaling_extrapolation.csv    cross-encoder-on-everything vs. retrieve-then-rerank
   llm_cache.json               Gemini answers + measured latency, keyed by prompt hash
-report/                      written report
 ```
+
+The written report is submitted separately, together with the link to this repository.
 
 ## Running it
 
@@ -46,7 +47,7 @@ jupyter notebook RAG_Reranking.ipynb
 ## Notebook contents
 
 1. Setup – configuration, hardware info
-2. Loading the PDF – font-aware cleaning (drops footers / footnotes), split into recitals and articles
+2. Loading the PDF – font-aware cleaning (drops footers / footnotes, rejoins words split by soft hyphens), split into recitals and articles
 3. Chunking – ≤150 words, 30-word overlap, never crossing an article; checked against the 256-token encoder limit
 4. Pipeline 1 – bi-encoder embeddings, FAISS `IndexFlatIP`, Top 10 → Top 3
 5. Pipeline 2 – cross-encoder re-ranking of the same Top 10 → Top 3

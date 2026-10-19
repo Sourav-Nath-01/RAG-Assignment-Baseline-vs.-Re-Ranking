@@ -42,7 +42,7 @@ keyword trap,Who is liable if a sub-processor fails to meet its obligations?,3.0
 keyword trap,Does the controller have to tell other companies it shared my data with that it has deleted it?,1.0,1.0,True,True,True,1.0,1.0
 keyword trap,Can a supervisory authority stop a company from processing data altogether?,,,False,False,False,0.0,0.0
 keyword trap,Does the GDPR apply to an American company selling products to people in France?,,,False,False,False,0.0,0.0
-keyword trap,What is pseudonymisation?,2.0,1.0,True,True,True,0.5,1.0
+keyword trap,What is pseudonymisation?,3.0,2.0,True,True,True,0.3333333333333333,0.5
 exception,"If stolen data were encrypted, do the affected users need to be told?",1.0,1.0,True,True,True,1.0,1.0
 exception,Can a bank refuse to delete my data because a law requires it to keep records?,,,False,False,False,0.0,0.0
 exception,Can a company continue sending me marketing after I object?,2.0,2.0,True,True,True,0.5,0.5
@@ -79,7 +79,7 @@ keyword trap,What is an enterprise under the GDPR?,1.0,1.0,True,True,True,1.0,1.
 keyword trap,Who counts as a recipient of personal data?,1.0,1.0,True,True,True,1.0,1.0
 keyword trap,Can my employer read my work emails?,1.0,1.0,True,True,True,1.0,1.0
 keyword trap,What is the deadline for answering a data subject access request?,1.0,1.0,True,True,True,1.0,1.0
-keyword trap,Does a data subject have to pay to lodge a complaint with the supervisory authority?,3.0,8.0,True,True,False,0.3333333333333333,0.125
+keyword trap,Does a data subject have to pay to lodge a complaint with the supervisory authority?,2.0,8.0,True,True,False,0.5,0.125
 keyword trap,Can member states set rules for processing a national identification number?,1.0,1.0,True,True,True,1.0,1.0
 keyword trap,"Within how many months must the Board adopt a decision in a dispute between authorities, and can it be extended?",1.0,1.0,True,True,True,1.0,1.0
 keyword trap,Within what period must a supervisory authority reply to a mutual assistance request from another authority?,3.0,2.0,True,True,True,0.3333333333333333,0.5
@@ -107,3 +107,4 @@ keyword trap,Must the controller tell me if it plans to send my data abroad?,2.0
 keyword trap,Is the processor liable instead of the controller when it breaks the contract?,8.0,10.0,True,False,False,0.125,0.1
 keyword trap,Who has to keep processing contracts in writing?,3.0,2.0,True,True,True,0.3333333333333333,0.5
 keyword trap,Does the processor have to help the controller answer data subject requests?,5.0,6.0,True,False,False,0.2,0.16666666666666666
+keyword trap,Is a person allowed to complain to a court instead of the regulator?,4.0,2.0,True,False,True,0.25,0.5

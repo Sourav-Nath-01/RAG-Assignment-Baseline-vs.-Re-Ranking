@@ -1,5 +1,5 @@
 id,category,query,gold section,gold chunk: rank shift,gold in P1 top3,gold in P2 top3,Answer 1,Answer 2
-KT-1,Keyword trap / distractor,Is the representative in the Union liable instead of the controller?,Article 27,347: #4 → #2,False,True,Abstained,Correct
+KT-1,Keyword trap / distractor,Is a person allowed to complain to a court instead of the regulator?,Article 79,528: #4 → #2,False,True,Misstated rule,Correct
 EX-1,Exception / corner case,Does every data breach have to be reported to the supervisory authority?,Article 33,366: #5 → #2,False,True,Abstained,Correct
 NEG-1,Negation & constraints,Which activities fall outside the scope of the regulation?,Article 2,259: #5 → #1,False,True,Abstained,Correct
 DOC-1,Document-specific: recitals outrank binding article,Is a controller allowed to refuse to act on a request when it cannot identify the data subject?,Article 12,301: #4 → #1,False,True,Omitted essential clause,Correct

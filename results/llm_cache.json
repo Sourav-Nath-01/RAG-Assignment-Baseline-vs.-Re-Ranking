@@ -1,66 +1,66 @@
 {
  "2ca882525ee8fb33e0d6581dc14cc346733067d3f3eb317fc266c052205ee741": {
   "answer": "A personal data breach must be notified to the supervisory authority without undue delay and, where feasible, not later than 72 hours after the controller becomes aware of it [1], [3]. If the notification is not made within 72 hours, reasons for the delay must accompany it [1], [3]. This notification is not required if the breach is unlikely to result in a risk to the rights and freedoms of natural persons [1], [3].",
-  "latency_s": 1.3709673519997523
+  "latency_s": 1.764702562999446
  },
  "63fd01e6a32a427868f93b966dc2e674455af0111e9c3d94c3410c677f3f9ab3": {
   "answer": "A personal data breach must be notified to the supervisory authority without undue delay and, where feasible, not later than 72 hours after the controller becomes aware of it [1], [2]. If the notification is not made within 72 hours, reasons for the delay must accompany it [1], [2]. This notification is not required if the personal data breach is unlikely to result in a risk to the rights and freedoms of natural persons [1], [2].",
-  "latency_s": 1.233105512000293
+  "latency_s": 1.4910533300007955
  },
- "74aaf511509066b561bc7e85e73efe0efb3e0a09bef2f380dba2d28fefff25ea": {
-  "answer": "Not found in the provided context.",
-  "latency_s": 1.2871177389997683
+ "0a2b7aa3c9a585e08c5cc3e470445ccfd6076e8ce1ce92bc93d8c46d7112dbaa": {
+  "answer": "Yes, a complainant may bring proceedings before the courts in the same Member State where a complaint has been rejected or dismissed by a supervisory authority [1]. Proceedings against a supervisory authority must be brought before the courts of the Member State where the supervisory authority is established [2].",
+  "latency_s": 1.2679703650010197
  },
- "edc17b0ff3b2ead05639593867232044dcc5d1c347a4da2da419cf52e5194e6e": {
-  "answer": "No, the designation of a representative does not affect the responsibility or liability of the controller or processor under this Regulation [3]. The representative acts on behalf of the controller or processor and may be addressed by supervisory authorities and data subjects [2], [3]. The designation of a representative is also without prejudice to legal actions against the controller or processor themselves [2].",
-  "latency_s": 1.2614695640004356
- },
- "192e2379d92fc47d60da97e15acb19dbfc1400e9095c4221f97e9b40814afe71": {
-  "answer": "Yes, a company must document any personal data breaches, including the facts, effects, and remedial actions taken [2]. This applies even if the breach is not reported. The documentation should consider circumstances like whether data was protected by technical measures [1]. A breach can cause various damages if not addressed timely [3].",
-  "latency_s": 1.4977554289998807
- },
- "20b068c02dd328360cdd5ab099bb71c8c1a0666feb9d6c4a90237fccf742d6ca": {
-  "answer": "Yes, a company must document any personal data breaches, including the facts, effects, and remedial actions taken [3]. This documentation is required to enable the supervisory authority to verify compliance [3]. The context does not specify any exceptions for breaches that are not reported.",
-  "latency_s": 1.2025545509995936
+ "0a05b8bea75d404949e1c89257c3185dcfedd8df47ff393619749f475df0d263": {
+  "answer": "Yes, a person is allowed to complain to a court instead of the regulator. Each data subject has the right to an effective judicial remedy if they consider their GDPR rights have been infringed, without prejudice to any available administrative or non-judicial remedy, including lodging a complaint with a supervisory authority [2]. This means a judicial remedy is available even if a complaint has not been lodged with a supervisory authority [2], [3].",
+  "latency_s": 1.401481180000701
  },
  "77c7e37b867812c12c0e12574d395303044be000c5a1c95f0d292c380fbd2d1e": {
   "answer": "Not found in the provided context.",
-  "latency_s": 0.9849367830001938
+  "latency_s": 1.0274146270003257
  },
  "6ff8da295e79d0211fa143cb8d018c0ac3308b430fa19652f9be31d8e779e675": {
   "answer": "No, not every data breach has to be reported to the supervisory authority. The controller must notify the supervisory authority without undue delay, and where feasible, not later than 72 hours after becoming aware of it, unless the personal data breach is unlikely to result in a risk to the rights and freedoms of natural persons [2]. If the notification is not made within 72 hours, reasons for the delay must accompany it [2].",
-  "latency_s": 1.3038881519996721
+  "latency_s": 1.476045064999198
  },
  "81ea1d5a4ede03d6de147ecfd2e46336473d1bba06f9169918d15ec0ee3dd8c0": {
   "answer": "Not found in the provided context.",
-  "latency_s": 11.193929088000004
+  "latency_s": 1.4290281479989062
  },
  "b4837ffdc4813e7ab26c8c9a465bfd26f7c564b3ff412c403ea1deb9f78d4396": {
-  "answer": "The GDPR does not apply to the processing of personal data in several situations. These include activities outside the scope of Union law [1a], processing by Member States when carrying out activities under Chapter 2 of Title V of the TEU [1b], and processing by a natural person for purely personal or household activities [1c], provided there is no connection to a professional or commercial activity [3]. It also excludes processing by competent authorities for preventing, investigating, detecting, or prosecuting criminal offences or executing criminal penalties, including safeguarding against and preventing threats to public security [1d]. However, if competent authorities process data for other purposes within Union law, it falls under the Regulation [2].",
-  "latency_s": 1.5659757909998007
+  "answer": "The GDPR does not apply to the processing of personal data in several situations. These include activities outside the scope of Union law [1a], processing by Member States carrying out activities under Chapter 2 of Title V of the TEU [1b], and processing by a natural person for a purely personal or household activity [1c], [3]. It also excludes processing by competent authorities for preventing, investigating, detecting, or prosecuting criminal offences, or executing criminal penalties, including safeguarding against and preventing threats to public security [1d]. However, if Member States entrust competent authorities with tasks not for these specific purposes, and it is within Union law, then the GDPR applies [2].",
+  "latency_s": 1.692159536998588
  },
  "0d0fbee3858efd096144e46586f80c8d40fb63b68ab1f5e81431a01ae8822f59": {
   "answer": "A controller is not obliged to acquire additional information to identify a data subject solely for GDPR compliance if the processed data does not permit identification [1], [3]. However, the controller should not refuse additional information provided by the data subject to support their rights [1]. If the controller cannot identify the data subject, Articles 15 to 20 do not apply unless the data subject provides additional information for identification [3].",
-  "latency_s": 1.31241452499944
+  "latency_s": 1.2252904099987063
  },
  "53955ade8158700f317c39fb62f5830205e323056da05469b8caaf9112bf61c9": {
   "answer": "Yes, a controller can refuse to act on a request if it demonstrates that it is not in a position to identify the data subject [1]. However, the controller should not refuse to take additional information provided by the data subject to support the exercise of their rights [2]. If the personal data processed does not permit identification, the controller is not obliged to acquire additional information solely for compliance with the Regulation [2].",
-  "latency_s": 1.3719445299993822
+  "latency_s": 1.3570434000012028
  },
- "77900ec60eac735652a74afd1eea02ea6795ba87febad085cb12d69e46196136": {
-  "answer": "Yes, scientific researchers can skip informing people whose data they reuse if the data subject already possesses the information, or if providing the information proves impossible or involves a disproportionate effort [1]. This is particularly relevant when processing is for archiving, scientific, historical, or statistical purposes [1]. Factors like the number of data subjects, age of the data, and safeguards should be considered [1].",
-  "latency_s": 1.2921425059994363
+ "b94c74a89754dacba75dce4be34510f47557b8dd597a41b9fb9ef65df71053c7": {
+  "answer": "Yes, scientific researchers can skip informing people whose data they reuse if the data subject already possesses the information, or if providing the information proves impossible or would involve a disproportionate effort [1]. This is particularly relevant when processing is for archiving, scientific, historical, or statistical purposes [1]. Factors like the number of data subjects, age of the data, and safeguards should be considered [1].",
+  "latency_s": 1.3421993909996672
  },
  "1ffeb5b2db8bd182863b14675b7ca490431bfa85af14d56d67667846da7a49fe": {
   "answer": "Not found in the provided context.",
-  "latency_s": 0.9067413940001643
+  "latency_s": 0.9810862640006235
  },
- "725005f1c316d20c053c9c12d3d709802cfa725f24bd7f45100e4ab4fb766881": {
+ "0e614b6533b3574e37e9d4faa9801b5c062e0cbcbd748c9e302e3713c1c85bc6": {
   "answer": "Not found in the provided context.",
-  "latency_s": 1.182416978999754
+  "latency_s": 1.0437651020001795
  },
  "825d3cc08d7db98a238463bd7b40fcb43ca76b19c78d694221167448b2e214bd": {
   "answer": "Not found in the provided context.",
-  "latency_s": 1.1460025870001118
+  "latency_s": 0.9282571380008449
+ },
+ "9b44e7b21b546962e09099cc381d4bd20ee2bb4c8873c498967f0fe5cb987b88": {
+  "answer": "Yes, a company must document any personal data breaches, including the facts, effects, and remedial actions taken [2]. This applies even if the breach is not reported. The documentation should include the nature of the breach, categories and approximate numbers of data subjects and records concerned, contact details for more information, likely consequences, and measures taken or proposed to be taken to address the breach [2].",
+  "latency_s": 1.2266117910003231
+ },
+ "45ca3aa846ae62793fbfd8ad2084d7f3b623056466ca2f7ee879d0bf891a6dc1": {
+  "answer": "Yes, a company must document any personal data breaches, including the facts, effects, and remedial actions taken [3]. This documentation enables the supervisory authority to verify compliance [3]. The context does not specify an exception for breaches that are not reported.",
+  "latency_s": 1.3841021379994345
  }
 }
