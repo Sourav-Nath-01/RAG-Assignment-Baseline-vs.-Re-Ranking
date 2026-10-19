@@ -51,8 +51,8 @@ exception,Can public authorities be fined under the GDPR?,1.0,1.0,True,True,True
 exception,Can a government agency rely on legitimate interests to process data?,,,False,False,False,0.0,0.0
 exception,How long does a company have to answer my request and can it take longer?,1.0,1.0,True,True,True,1.0,1.0
 exception,Can data be transferred abroad if the person explicitly agrees?,,,False,False,False,0.0,0.0
-exception,Can a company transfer data abroad based only on its own legitimate interests?,2.0,1.0,True,True,True,0.5,1.0
-exception,Can a controller avoid paying compensation for damage?,2.0,1.0,True,True,True,0.5,1.0
+exception,Can a company transfer data abroad based only on its own legitimate interests?,5.0,2.0,True,False,True,0.2,0.5
+exception,Can a controller avoid paying compensation for damage?,4.0,4.0,True,False,False,0.25,0.25
 exception,When is a processor liable for damage caused by processing?,1.0,1.0,True,True,True,1.0,1.0
 exception,Can sensitive data that a person has posted publicly be processed?,,,False,False,False,0.0,0.0
 exception,Does the controller need to tell me information I already know?,9.0,5.0,True,False,False,0.1111111111111111,0.2
@@ -77,13 +77,13 @@ keyword trap,What counts as a personal data breach?,,,False,False,False,0.0,0.0
 keyword trap,Does every company need a data protection officer?,5.0,5.0,True,False,False,0.2,0.2
 keyword trap,What is an enterprise under the GDPR?,1.0,1.0,True,True,True,1.0,1.0
 keyword trap,Who counts as a recipient of personal data?,1.0,1.0,True,True,True,1.0,1.0
-keyword trap,Can my employer read my work emails?,1.0,1.0,True,True,True,1.0,1.0
+keyword trap,Can my employer read my work emails?,,,False,False,False,0.0,0.0
 keyword trap,What is the deadline for answering a data subject access request?,1.0,1.0,True,True,True,1.0,1.0
 keyword trap,Does a data subject have to pay to lodge a complaint with the supervisory authority?,2.0,8.0,True,True,False,0.5,0.125
 keyword trap,Can member states set rules for processing a national identification number?,1.0,1.0,True,True,True,1.0,1.0
 keyword trap,"Within how many months must the Board adopt a decision in a dispute between authorities, and can it be extended?",1.0,1.0,True,True,True,1.0,1.0
 keyword trap,Within what period must a supervisory authority reply to a mutual assistance request from another authority?,3.0,2.0,True,True,True,0.3333333333333333,0.5
-keyword trap,Can personal data be processed for journalism without consent?,2.0,2.0,True,True,True,0.5,0.5
+keyword trap,Can personal data be processed for journalism without consent?,8.0,4.0,True,False,False,0.125,0.25
 keyword trap,Is the representative in the Union liable instead of the controller?,4.0,2.0,True,False,True,0.25,0.5
 keyword trap,Is the lead supervisory authority obliged to share its draft decision with other authorities?,3.0,2.0,True,True,True,0.3333333333333333,0.5
 keyword trap,Who is the lead supervisory authority for a company with offices in several EU countries?,1.0,5.0,True,True,False,1.0,0.2
@@ -91,7 +91,7 @@ keyword trap,Can I ask a company to stop using my data while it checks whether t
 keyword trap,Can I make a company freeze my data instead of deleting it?,,,False,False,False,0.0,0.0
 keyword trap,Is a non-profit allowed to sue on my behalf?,1.0,1.0,True,True,True,1.0,1.0
 keyword trap,Can a consumer organisation file a complaint without my mandate?,,,False,False,False,0.0,0.0
-keyword trap,Does CCTV monitoring of a shopping mall require an impact assessment?,2.0,1.0,True,True,True,0.5,1.0
+keyword trap,Does CCTV monitoring of a shopping mall require an impact assessment?,5.0,2.0,True,False,True,0.2,0.5
 keyword trap,Does a hospital need an impact assessment for processing patient records at scale?,5.0,3.0,True,False,True,0.2,0.3333333333333333
 keyword trap,Who is the boss of the data protection officer?,2.0,2.0,True,True,True,0.5,0.5
 keyword trap,Who pays for the data protection officer's training?,8.0,5.0,True,False,False,0.125,0.2

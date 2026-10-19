@@ -48,7 +48,7 @@ jupyter notebook RAG_Reranking.ipynb
 
 1. Setup – configuration, hardware info
 2. Loading the PDF – font-aware cleaning (drops footers / footnotes, rejoins words split by soft hyphens), split into recitals and articles
-3. Chunking – ≤150 words, 30-word overlap, never crossing an article; checked against the 256-token encoder limit
+3. Chunking – ≤150 words, up to 30-word overlap, never crossing an article; checked against the 256-token encoder limit
 4. Pipeline 1 – bi-encoder embeddings, FAISS `IndexFlatIP`, Top 10 → Top 3
 5. Pipeline 2 – cross-encoder re-ranking of the same Top 10 → Top 3
 6. Answer generation – one prompt template shared by both pipelines
