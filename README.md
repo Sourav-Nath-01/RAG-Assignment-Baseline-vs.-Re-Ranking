@@ -30,7 +30,7 @@ results/                     CSV tables produced by the notebook + LLM answer ca
   llm_cache.json               Gemini answers + measured latency, keyed by prompt hash
 ```
 
-The written report is submitted separately, together with the link to this repository.
+The written report is in [`report/RAG_Assignment_Report.pdf`](report/RAG_Assignment_Report.pdf).
 
 ## Running it
 
