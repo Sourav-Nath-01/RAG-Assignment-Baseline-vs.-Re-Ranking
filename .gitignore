@@ -1,0 +1,12 @@
+# secrets
+.env
+
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# local-only files
+RAG_LMA_Assignment_v1.pdf
+IMPLEMENTATION_PLAN.md
+.vscode/
